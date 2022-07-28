@@ -1,9 +1,9 @@
-import React from 'react'
+import { StyledHeader } from "./styles/Header.styles"
 
 export default function Header() {
   return (
-    <header>
-      
-    </header>
+    <StyledHeader>
+      <h1>Web</h1>
+    </StyledHeader>
   )
 }
