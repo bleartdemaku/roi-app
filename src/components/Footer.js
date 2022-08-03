@@ -2,7 +2,7 @@ import { Container } from "./styles/Container.styles";
 import { Flex } from "./styles/Flex.styles";
 import { StyledFooter } from "./styles/Footer.styled";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <StyledFooter>
       <Container>
@@ -11,11 +11,10 @@ export default function Footer() {
         <Flex>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              { props.lorem }
             </li>
             <li>+1-543-123-4567</li>
-            <li>example@huddle.com</li>
+            <li>example@example.com</li>
           </ul>
           <ul>
             <li>About Us</li>

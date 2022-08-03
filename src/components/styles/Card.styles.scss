@@ -10,7 +10,9 @@
     box-shadow: 0 0 10px $gray3;
     margin: 40px 0;
     padding: 60px;
+    // flex-direction: ${({ layout }) => layout || 'row'};
     flex-direction: row;
+
 
     img {
         width: 80%;

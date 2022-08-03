@@ -12,8 +12,11 @@ const theme = {
     body: "#fff",
     footer: "#003333",
   },
-  mobile: "768px",
+  // 768 for tablet
+  mobile: "767px",
 };
+
+const loremProp = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
 
 function App() {
   return (
@@ -26,7 +29,7 @@ function App() {
             <Card key={index} item={item} />
           ))}
         </Container>
-        <Footer />
+        <Footer lorem={loremProp}/>
       </>
     </ThemeProvider>
   );
