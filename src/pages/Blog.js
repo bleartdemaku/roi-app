@@ -1,9 +1,9 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import Header from "../components/Header";
-import { Container } from "../components/styles/Container.styles";
 import GlobalStyles from "../components/styles/Global";
 import Footer from "../components/Footer";
+
 
 const theme = {
   colors: {
@@ -24,7 +24,7 @@ function Blog() {
       <>
         <GlobalStyles />
         <Header />
-        <Container></Container>
+        
         <Footer lorem={loremProp} />
       </>
     </ThemeProvider>

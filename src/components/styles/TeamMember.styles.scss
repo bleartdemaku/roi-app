@@ -1,0 +1,29 @@
+@import "../../theme/_colors.scss";
+@import "../../theme/_screenSizes.scss";
+@import "../../theme/_fonts.scss";
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px $gray3;
+    margin: 40px 0;
+    padding: 60px;
+    // flex-direction: ${({ layout }) => layout || 'row'};
+    flex-direction: row;
+
+
+    img {
+        width: 80%;
+    }
+
+    & > div {
+        flex: 1;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+    }
+
+}
