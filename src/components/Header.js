@@ -1,5 +1,5 @@
 import { StyledHeader, Nav, Logo, Image } from './styles/Header.styles'
-import { Container } from './styles/Container.styles'
+import { Container } from './styles/container.styles'
 import { Flex } from './styles/Flex.styles'
 import { Button } from './styles/Button.styles'
 

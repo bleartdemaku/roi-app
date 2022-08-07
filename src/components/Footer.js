@@ -1,4 +1,4 @@
-import { Container } from "./styles/Container.styles";
+import { Container } from "./styles/container.styles";
 import { Flex } from "./styles/Flex.styles";
 import { StyledFooter } from "./styles/Footer.styled";
 

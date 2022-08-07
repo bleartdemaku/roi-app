@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { Container } from "../components/styles/Container.styles";
+import { Container } from "../components/styles/container.styles";
 import GlobalStyles from "../components/styles/Global";
 import Footer from "../components/Footer";
 import TeamMember from "../components/TeamMember";

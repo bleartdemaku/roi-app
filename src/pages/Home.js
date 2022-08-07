@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import Header from '../components/Header'
-import { Container } from "../components/styles/Container.styles";
+import { Container } from "../components/styles/container.styles";
 import GlobalStyles from "../components/styles/Global";
 import content from "../content";
 import Card from "../components/Card";
