@@ -11,6 +11,7 @@ function NavbarBootstrap() {
           <Nav className="me-auto">
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>

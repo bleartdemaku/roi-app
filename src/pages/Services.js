@@ -1,9 +1,18 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import ServicesCarosuel from '../components/ServicesCarousel'
+import content from '../content'
 
-export default function Services() {
+function Services() {
   return (
     <div>
-      <h1>Services</h1>
+      <Container>
+        {content.map((item, index) => (
+          <ServicesCarosuel key={index} item={item} />
+        ))}
+      </Container>
     </div>
   )
 }
+
+export default Services
