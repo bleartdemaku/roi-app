@@ -5,7 +5,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-grow-together.svg",
+    image: "dev3.gif",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-flowing-conversation.svg",
+    image: "dev4.gif",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-your-users.svg",
+    image: "dev5.gif",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-your-users.svg",
+    image: "dev6.gif",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-your-users.svg",
+    image: "dev7.gif",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const teamContent = [
     lastname: "Demaku",
     biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     jobTitle: "full-stack developer",
-    image: "illustration-your-users.svg",
+    image: "dev8.gif",
   },
 ];
 

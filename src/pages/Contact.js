@@ -39,19 +39,15 @@ function Contact() {
 
     if (!dob || dob === "") newErrors.dob = "Please enter your date of birth";
     // else if (calcAge(age) < 18)
-      // newErrors.dob = "You need to be atleast 18 years old";
+    // newErrors.dob = "You need to be atleast 18 years old";
 
     if (!gender || gender === "") newErrors.gender = "Please enter your gender";
-    // newErrors.gender = "Gender is invalid!";
 
     if (!cities || cities === "") newErrors.cities = "Please select your city";
-    // newErrors.cities = "City is invalid!";
 
     if (!prof || prof === "") newErrors.prof = "Please enter your profession";
-    // newErrors.prof = "Gender is invalid!";
 
     if (!bio || bio === "") newErrors.bio = "Please enter a comment ";
-    // newErrors.bio = "Bio is invalid!";
 
     return newErrors;
   };
